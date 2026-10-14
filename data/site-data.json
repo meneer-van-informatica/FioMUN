@@ -1,0 +1,24 @@
+{
+  "meta": {
+    "status": "awaiting-initial-sync"
+  },
+  "config": {},
+  "theme": {},
+  "assets": {},
+  "menu": [],
+  "pages": {},
+  "cards": {},
+  "programme": [],
+  "details": [],
+  "committees": [],
+  "contacts": [],
+  "registration": {
+    "mode": "closed",
+    "forms": {
+      "staff": "",
+      "individual": "",
+      "school": ""
+    },
+    "contactEmail": ""
+  }
+}
