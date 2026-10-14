@@ -1,0 +1,178 @@
+<!-- FioMUN v3.0.0 | 13-09-2026 | Committees page and receipt status -->
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="FioMUN - Fioretti College Model United Nations">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <noscript><p>This website needs JavaScript to display the programme and registration links.</p></noscript>
+  <a class="skip-link" href="#mainContent">Skip to content</a>
+  <div id="siteNotice" class="site-notice" role="status" hidden></div>
+
+  <header class="site-header">
+    <div class="container header-row">
+      <a class="brand route-link" href="#home" data-route="home" aria-label="FioMUN home">
+        <img id="brandLogo" alt="" width="58" height="46">
+        <span class="brand-copy">
+          <strong id="brandName">FioMUN</strong>
+          <span id="brandSubtitle">Fioretti College Model United Nations</span>
+        </span>
+      </a>
+
+      <button class="menu-button" type="button" aria-expanded="false" aria-controls="mainNav">
+        Menu
+      </button>
+
+      <nav class="nav" id="mainNav" aria-label="Main navigation"></nav>
+    </div>
+  </header>
+
+  <main id="mainContent">
+    <section class="page active" data-page="home" aria-labelledby="homeTitle">
+      <div class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow" data-bind="home.hero.kicker"></p>
+            <h1 id="homeTitle" data-bind="home.hero.title"></h1>
+            <p class="hero-lead" data-bind="home.hero.lead"></p>
+            <div class="actions" id="heroActions"></div>
+            <div class="hero-meta" id="homeMeta"></div>
+          </div>
+
+          <figure class="hero-visual" id="heroVisual">
+            <div class="hero-image-frame" id="heroImageFrame">
+              <img id="heroImage" alt="Students participating in FioMUN">
+              <img id="heroLogo" class="hero-logo" alt="FioMUN logo">
+            </div>
+            <figcaption id="siteStatus" class="status-chip"></figcaption>
+          </figure>
+        </div>
+      </div>
+
+      <section class="section-block home-summary" aria-labelledby="summaryTitle">
+        <div class="container summary-grid">
+          <h2 id="summaryTitle" data-bind="home.summary.title"></h2>
+          <div class="summary-points" id="homeSummaryCards"></div>
+        </div>
+      </section>
+
+      <section class="section-block section-soft" aria-labelledby="programmeTitle">
+        <div class="container section-heading-row">
+          <div>
+            <p class="page-kicker" data-bind="home.programme.kicker"></p>
+            <h2 id="programmeTitle" data-bind="home.programme.title"></h2>
+          </div>
+          <p class="section-intro" data-bind="home.programme.intro"></p>
+        </div>
+
+        <div class="container conference-layout">
+          <div class="programme" id="programmeList"></div>
+          <aside class="details-panel" aria-label="Conference details">
+            <dl id="conferenceDetails"></dl>
+          </aside>
+        </div>
+      </section>
+
+
+    </section>
+
+    <section class="page" data-page="committees" aria-labelledby="committeesTitle">
+      <section class="section-block" aria-labelledby="committeesTitle">
+        <div class="container section-heading-row">
+          <div>
+            <p class="page-kicker" data-bind="home.committees.kicker"></p>
+            <h1 id="committeesTitle">Committees &amp; Topics</h1>
+          </div>
+          <p class="section-intro" data-bind="home.committees.intro"></p>
+        </div>
+        <div class="container committees-list" id="committeesList"></div>
+      </section>
+    </section>
+
+    <section class="page" data-page="about" aria-labelledby="aboutTitle">
+      <div class="page-hero">
+        <div class="container page-hero-row">
+          <div>
+            <p class="page-kicker" data-bind="about.hero.kicker"></p>
+            <h1 id="aboutTitle" data-bind="about.hero.title"></h1>
+          </div>
+          <p class="page-intro" data-bind="about.hero.intro"></p>
+        </div>
+      </div>
+
+      <div class="section-block">
+        <div class="container about-layout">
+          <article class="prose-block">
+            <h2 data-bind="about.body.title"></h2>
+            <p data-bind="about.body.text"></p>
+          </article>
+          <aside>
+            <h2 class="small-heading" data-bind="about.values.title"></h2>
+            <div class="value-cards" id="aboutValueCards"></div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section class="page" data-page="registrations" aria-labelledby="registrationsTitle">
+      <div class="page-hero">
+        <div class="container page-hero-row">
+          <div>
+            <p class="page-kicker" data-bind="registrations.hero.kicker"></p>
+            <h1 id="registrationsTitle" data-bind="registrations.hero.title"></h1>
+          </div>
+          <p class="page-intro">Registration is handled through official Google Forms.</p>
+        </div>
+      </div>
+
+      <div class="section-block">
+        <div class="container register-layout">
+          <div class="register-copy">
+            <h2>Join FioMUN 2027</h2>
+            <p>Select the form that matches your registration.</p>
+            <p class="form-note">Registrations are initially non-binding. The FioMUN team will confirm the next steps.</p>
+          </div>
+          <div>
+            <div class="contact-cards" id="registrationLinks" aria-label="Registration forms"></div>
+            <p class="form-note">Registration information is entered in Google Forms, not on this website.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="page" data-page="contact" aria-labelledby="contactTitle">
+      <div class="page-hero">
+        <div class="container page-hero-row">
+          <div>
+            <p class="page-kicker" data-bind="contact.hero.kicker"></p>
+            <h1 id="contactTitle" data-bind="contact.hero.title"></h1>
+          </div>
+          <p class="page-intro" data-bind="contact.hero.intro"></p>
+        </div>
+      </div>
+
+      <div class="section-block">
+        <div class="container contact-layout">
+          <div class="prose-block">
+            <h2 data-bind="contact.body.title"></h2>
+            <p data-bind="contact.body.text"></p>
+          </div>
+          <div class="contact-cards" id="contactCards"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-row">
+      <span data-bind="global.footer.left"></span>
+      <span data-bind="global.footer.right"></span>
+    </div>
+  </footer>
+
+  <script defer src="./app.js"></script>
+</body>
+</html>
