@@ -42,13 +42,13 @@
   "committees": [
     {
       "code": "GA1",
-      "description": "Debate international security, arms control and cooperation between states.",
+      "description": "T.B.A",
       "issues": [
         {
-          "title": "Preventing the spread of autonomous weapons"
+          "title": "T.B.A"
         },
         {
-          "title": "Protecting critical infrastructure during conflict"
+          "title": "T.B.A"
         }
       ],
       "level": "Intermediate",
@@ -56,13 +56,13 @@
     },
     {
       "code": "WHO",
-      "description": "Work on international public-health challenges and fair access to care.",
+      "description": "T.B.A",
       "issues": [
         {
-          "title": "Improving access to essential medicines"
+          "title": "T.B.A"
         },
         {
-          "title": "International cooperation during future pandemics"
+          "title": "T.B.A"
         }
       ],
       "level": "Beginner",
@@ -70,13 +70,13 @@
     },
     {
       "code": "HRC",
-      "description": "Discuss human-rights protection and the responsibilities of governments.",
+      "description": "T.B.A",
       "issues": [
         {
-          "title": "Protecting journalists and human-rights defenders"
+          "title": "T.B.A"
         },
         {
-          "title": "The use of artificial intelligence in public surveillance"
+          "title": "T.B.A"
         }
       ],
       "level": "Beginner",
@@ -127,11 +127,11 @@
     },
     {
       "label": "Level",
-      "value": "Beginner friendly"
+      "value": "All levels welcome from beginner to expert"
     },
     {
-      "label": "Fee",
-      "value": "To be confirmed"
+      "label": "Early Bird Fee",
+      "value": "40 euro "
     }
   ],
   "menu": [
@@ -156,7 +156,7 @@
     "cache": "disabled",
     "contractVersion": 2,
     "databaseVersion": 2,
-    "generatedAt": "2026-10-17T22:28:57.193Z"
+    "generatedAt": "2026-10-18T04:50:01.233Z"
   },
   "pages": {
     "about": {
@@ -236,32 +236,32 @@
   },
   "programme": [
     {
-      "text": "Delegations check in and receive their conference materials.",
+      "text": "T.B.A",
       "time": "9:00",
       "title": "Arrival and registration"
     },
     {
-      "text": "Welcome, practical briefing and introduction of the secretariat.",
+      "text": "T.B.A",
       "time": "9:30 ",
       "title": "Opening ceremony"
     },
     {
-      "text": "Opening speeches, agenda setting and the first moderated caucuses.",
+      "text": "T.B.A",
       "time": "10:00",
       "title": "Committee session I"
     },
     {
-      "text": "Lunch break and time to meet delegates from other schools.",
+      "text": "T.B.A",
       "time": "12:30",
       "title": "Lunch"
     },
     {
-      "text": "Negotiation, working papers and resolution writing.",
+      "text": "T.B.A",
       "time": "13:15",
       "title": "Committee session II"
     },
     {
-      "text": "Final remarks, awards and conference close.",
+      "text": "T.B.A",
       "time": "15:30",
       "title": "Closing ceremony"
     }
