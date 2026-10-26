@@ -42,45 +42,199 @@
   "committees": [
     {
       "code": "GA1",
-      "description": "T.B.A",
+      "description": "",
       "issues": [
         {
-          "title": "T.B.A"
+          "title": "- Restricting the accessibility of Lethal Autonomous Weapons Systems (LAWS) globally."
         },
         {
-          "title": "T.B.A"
+          "title": "- Strengthening regulation on private military and security companies in armed conflict."
         }
       ],
-      "level": "Intermediate",
+      "level": "Beginner ",
       "name": "Disarmament and International Security"
     },
     {
-      "code": "WHO",
-      "description": "T.B.A",
+      "code": "GA3",
+      "description": "",
       "issues": [
         {
-          "title": "T.B.A"
+          "title": "- Safeguarding the rights of religious and ethnic minorities facing forced displacement in Southeast Asia\n"
         },
         {
-          "title": "T.B.A"
+          "title": "- Protecting refugees and asylum seekers amidst increasingly restrictive immigration policies\n"
         }
       ],
       "level": "Beginner",
-      "name": "World Health Organization"
+      "name": "Social, Humanitarian and Cultural Committee"
+    },
+    {
+      "code": "GA4",
+      "description": "",
+      "issues": [
+        {
+          "title": "- The question of Western Sahara and its competing claims to sovereignty\n"
+        },
+        {
+          "title": "- Ensuring accountability and transparency in United Nations peacekeeping operations\n"
+        }
+      ],
+      "level": "Beginner",
+      "name": "Special Political and Decolonization Committee"
+    },
+    {
+      "code": "EC",
+      "description": "",
+      "issues": [
+        {
+          "title": "- Strengthening regulations and corporate accountability for privately owned oil and gas companies"
+        },
+        {
+          "title": "- Reducing environmental waste and general inefficiency in the Global Meat Industry\n"
+        }
+      ],
+      "level": "Intermediate ",
+      "name": "Ecological Council "
+    },
+    {
+      "code": "ECOSOC",
+      "description": "",
+      "issues": [
+        {
+          "title": "- Bridging the global divide on accessibility of Artificial Intelligence\n"
+        },
+        {
+          "title": "- Mitigating debt dependency and strengthening financial resilience in vulnerable economies"
+        }
+      ],
+      "level": "Beginner ",
+      "name": "Economic and Social Council"
+    },
+    {
+      "code": "SC",
+      "description": "",
+      "issues": [
+        {
+          "title": "- Combatting the usage of sexual violence and forced displacement as tactics of war"
+        },
+        {
+          "title": "- Reassessing the effectiveness of UN-imposed sanctions in maintaining international peace and security"
+        }
+      ],
+      "level": "Advanced ",
+      "name": "Security Council "
     },
     {
       "code": "HRC",
-      "description": "T.B.A",
+      "description": "",
       "issues": [
         {
-          "title": "T.B.A"
+          "title": "- Protecting migrants and asylum seekers from arbitrary detention and unlawful deportation\n"
         },
         {
-          "title": "T.B.A"
+          "title": "- Safeguarding the human right to privacy amidst the expansion of AI-centered surveillance\n"
         }
       ],
       "level": "Beginner",
-      "name": "Human Rights Council"
+      "name": "Human Rights Council "
+    },
+    {
+      "code": "UNODC",
+      "description": "",
+      "issues": [
+        {
+          "title": "- Combatting the expansion of synthetic drug markets and international trafficking networks\n"
+        },
+        {
+          "title": "- Preventing the recruitment and exploitation of young people by transnational organized crime networks\n"
+        }
+      ],
+      "level": "Intermediate ",
+      "name": "United Nations Office on Drugs and Crime"
+    },
+    {
+      "code": "WHA",
+      "description": "",
+      "issues": [
+        {
+          "title": "- Preventing misinformation regarding health from undermining public trust in vaccines and medical institutions"
+        },
+        {
+          "title": "- Reducing the globally growing prevalence of mental-health disorders through accessible public health systems"
+        }
+      ],
+      "level": "Intermediate ",
+      "name": "World Health Assembly"
+    },
+    {
+      "code": "ASEAN",
+      "description": "",
+      "issues": [
+        {
+          "title": "- Strengthening regulation and regional cooperation against online scam networks and cybercrime\n"
+        },
+        {
+          "title": "- Managing competing claims and regional security and economic tensions in the South China Sea"
+        }
+      ],
+      "level": "Beginner ",
+      "name": "Association of Southeast Asian Nations"
+    },
+    {
+      "code": "WC",
+      "description": "",
+      "issues": [
+        {
+          "title": "- Addressing Menstrual Stigma and Its Impact on Women’s and Girls’ Participation in Society \n"
+        },
+        {
+          "title": "- Overcoming Social, Legal, and Cultural Barriers to Women’s and Girls’ Education and Autonomy in MENA and Sub-Saharan Africa \n"
+        }
+      ],
+      "level": "Beginner ",
+      "name": "Women's Council "
+    },
+    {
+      "code": "AU",
+      "description": "",
+      "issues": [
+        {
+          "title": "- Protecting African resource sovereignty from neocolonial practices and exploitative foreign intervention and extraction"
+        },
+        {
+          "title": "- Preventing unconstitutional changes of government and strengthening democratic stability in Africa"
+        }
+      ],
+      "level": "Intermediate ",
+      "name": "African Union "
+    },
+    {
+      "code": "AL",
+      "description": "",
+      "issues": [
+        {
+          "title": "- Limiting the amount of foreign intervention and arms flow fueling the conflict in Sudan"
+        },
+        {
+          "title": "- De-escalating tensions between Iran and Arab Gulf states while safeguarding regional stability"
+        }
+      ],
+      "level": "Beginner ",
+      "name": "Arab League "
+    },
+    {
+      "code": "WB",
+      "description": "",
+      "issues": [
+        {
+          "title": "- Financing ecological transitions without furthering debt dependency in developing economies\n"
+        },
+        {
+          "title": "- Strengthening food security through investment in sustainable agriculture and rural infrastructure"
+        }
+      ],
+      "level": "Advanced",
+      "name": "World Bank "
     }
   ],
   "config": {
@@ -100,7 +254,7 @@
   },
   "contacts": [
     {
-      "email": "fiomun@fioretti.nl",
+      "email": "SG.Fiomun@gmail.com or DSG.Fiomun@gmail.com ",
       "name": "FioMUN Secretariat",
       "phone": "",
       "role": "General questions and registrations"
@@ -156,7 +310,7 @@
     "cache": "disabled",
     "contractVersion": 2,
     "databaseVersion": 2,
-    "generatedAt": "2026-10-26T07:57:06.867Z"
+    "generatedAt": "2026-10-26T15:19:38.082Z"
   },
   "pages": {
     "about": {
