@@ -352,7 +352,7 @@
     "cache": "disabled",
     "contractVersion": 2,
     "databaseVersion": 2,
-    "generatedAt": "2026-10-28T08:45:34.883Z"
+    "generatedAt": "2026-10-28T16:44:09.900Z"
   },
   "pages": {
     "about": {
@@ -363,7 +363,7 @@
       "hero": {
         "intro": "Students represent countries, debate global issues and work together on resolutions in English.",
         "kicker": "About FioMUN",
-        "title": "A welcoming Model United Nations conference at Fioretti College."
+        "title": "A welcoming and inaugural Model United Nations conference at Fioretti College Lisse."
       },
       "values": {
         "title": "How we want the conference to feel"
@@ -390,12 +390,12 @@
       "committees": {
         "intro": "Committee names, levels and issues are loaded from separate Sheets tables.",
         "kicker": "Committees",
-        "title": "Different levels, serious topics."
+        "title": "Different levels, serious topics"
       },
       "hero": {
         "kicker": "Fioretti College · Lisse",
-        "lead": "FioMUN 2027 brings students together for a day of debate, negotiation and international cooperation.",
-        "primary_label": "Register your delegation",
+        "lead": "FioMUN 2027 brings students together for three days of debate, negotiation and international cooperation.",
+        "primary_label": "Register your school",
         "primary_route": "registrations",
         "secondary_label": "About FioMUN",
         "secondary_route": "about",
@@ -404,7 +404,7 @@
       "programme": {
         "intro": "",
         "kicker": "Conference day",
-        "title": "A clear programme for delegates and schools."
+        "title": "A clear programme for all participants "
       },
       "summary": {
         "title": "A focused school conference built around debate, diplomacy and cooperation."
