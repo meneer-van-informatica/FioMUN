@@ -226,57 +226,6 @@
       ],
       "level": "Beginner ",
       "name": "Women's Council "
-    },
-    {
-      "code": "AU",
-      "description": "",
-      "issues": [
-        {
-          "title": "- Protecting African resource sovereignty from neocolonial practices and exploitative foreign intervention and extraction"
-        },
-        {
-          "title": "- Preventing unconstitutional changes of government and strengthening democratic stability in Africa"
-        },
-        {
-          "title": "Third topic T.B.A"
-        }
-      ],
-      "level": "Intermediate ",
-      "name": "African Union "
-    },
-    {
-      "code": "AL",
-      "description": "",
-      "issues": [
-        {
-          "title": "- Limiting the amount of foreign intervention and arms flow fueling the conflict in Sudan"
-        },
-        {
-          "title": "- De-escalating tensions between Iran and Arab Gulf states while safeguarding regional stability"
-        },
-        {
-          "title": "Third topic T.B.A"
-        }
-      ],
-      "level": "Beginner ",
-      "name": "Arab League "
-    },
-    {
-      "code": "WB",
-      "description": "",
-      "issues": [
-        {
-          "title": "- Financing ecological transitions without furthering debt dependency in developing economies\n"
-        },
-        {
-          "title": "- Strengthening food security through investment in sustainable agriculture and rural infrastructure"
-        },
-        {
-          "title": "Third topic T.B.A"
-        }
-      ],
-      "level": "Advanced",
-      "name": "World Bank "
     }
   ],
   "config": {
@@ -352,7 +301,7 @@
     "cache": "disabled",
     "contractVersion": 2,
     "databaseVersion": 2,
-    "generatedAt": "2026-11-04T09:32:28.778Z"
+    "generatedAt": "2026-11-04T18:06:49.941Z"
   },
   "pages": {
     "about": {
