@@ -36,6 +36,17 @@
     return value == null ? fallback : value;
   }
 
+  // Published FioMUN 2027 registration links. Sheet values take precedence when present.
+  // Keep these fallbacks until the same URLs have been entered in FioMUN Content > 00_CONFIG.
+  function registrationForms() {
+    const configured = getPath(data, 'registration.forms', {});
+    return {
+      staff: configured.staff || 'https://forms.gle/8aVeNfXji4sFVyvE6',
+      individual: configured.individual || 'https://forms.gle/dfYfRpim7bXLJSUS8',
+      school: configured.school || 'https://forms.gle/65dGDGuxarWbPo4v9'
+    };
+  }
+
   function textElement(tag, text, className) {
     const element = document.createElement(tag);
     if (className) element.className = className;
@@ -72,7 +83,7 @@
     $('#brandName').textContent = String(getPath(data, 'config.site_name', 'FioMUN'));
     $('#brandSubtitle').textContent = String(getPath(data, 'config.site_subtitle', 'Fioretti College Model United Nations'));
     $('#brandLogo').src = String(getPath(data, 'assets.logoMarkDataUri', ''));
-    const forms = getPath(data, 'registration.forms', {});
+    const forms = registrationForms();
     $('#siteStatus').textContent = Object.values(forms).some(Boolean)
       ? 'Registration via Google Forms' : 'Registration information';
   }
@@ -108,7 +119,7 @@
     const secondaryRoute = String(getPath(pagesData, 'home.hero.secondary_route', 'about'));
     actions.append(
       makeRouteButton(
-        Object.values(getPath(data, 'registration.forms', {})).some(Boolean)
+        Object.values(registrationForms()).some(Boolean)
           ? getPath(pagesData, 'home.hero.primary_label', 'Register') : 'Registration details',
         validRoutes.has(primaryRoute) ? primaryRoute : 'registrations',
         'button-primary'
@@ -243,9 +254,9 @@
 
   function renderRegistrationLinks() {
     const container = $('#registrationLinks');
-    const forms = getPath(data, 'registration.forms', {});
+    const forms = registrationForms();
     const choices = [
-      {name: 'Staff', key: 'staff', description: 'For students applying to join the FioMUN staff team.'},
+      {name: 'Student Officer', key: 'staff', description: 'For students applying to become FioMUN student officers.'},
       {name: 'Individual', key: 'individual', description: 'For individual delegates registering for FioMUN.'},
       {name: 'School', key: 'school', description: 'For schools registering a delegation.'}
     ];
