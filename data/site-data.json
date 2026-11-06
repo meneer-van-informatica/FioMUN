@@ -229,8 +229,8 @@
     }
   ],
   "config": {
-    "conference_date": "To be announced",
-    "conference_fee": "To be confirmed",
+    "conference_date": "9, 10 and 11th of April 2027 ",
+    "conference_fee": "40 euro (early bird) ",
     "conference_location": "Fioretti College Lisse",
     "contact_email": "fiomun@fioretti.nl",
     "hero_image_url": "",
@@ -276,7 +276,7 @@
     },
     {
       "label": "Early Bird Fee",
-      "value": "40 euro "
+      "value": "40 euro, then 50 euros after Dec (Student Officers 45 euros)"
     }
   ],
   "menu": [
@@ -301,7 +301,7 @@
     "cache": "disabled",
     "contractVersion": 2,
     "databaseVersion": 2,
-    "generatedAt": "2026-11-06T07:04:44.491Z"
+    "generatedAt": "2026-11-06T16:03:49.688Z"
   },
   "pages": {
     "about": {
@@ -381,34 +381,34 @@
   },
   "programme": [
     {
-      "text": "T.B.A",
-      "time": "9:00",
-      "title": "Arrival and registration"
+      "text": "",
+      "time": "8:30-9:00",
+      "title": "First StOff briefing "
     },
     {
-      "text": "T.B.A",
-      "time": "9:30 ",
-      "title": "Opening ceremony"
+      "text": "",
+      "time": "8:30-9:45",
+      "title": "Registration and administration "
     },
     {
-      "text": "T.B.A",
-      "time": "10:00",
-      "title": "Committee session I"
+      "text": "",
+      "time": "10:00-10:30",
+      "title": "First timer workshop "
     },
     {
-      "text": "T.B.A",
-      "time": "12:30",
-      "title": "Lunch"
+      "text": "",
+      "time": "10:30-11:30",
+      "title": "Opening ceremony "
     },
     {
-      "text": "T.B.A",
-      "time": "13:15",
-      "title": "Committee session II"
+      "text": "",
+      "time": "12:00-14:00",
+      "title": "Lunch "
     },
     {
-      "text": "T.B.A",
-      "time": "15:30",
-      "title": "Closing ceremony"
+      "text": "",
+      "time": "12:00-17:00",
+      "title": "Committees in session "
     }
   ],
   "registration": {
