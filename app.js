@@ -421,6 +421,7 @@
 
     $('#mainNav').classList.remove('open');
     $('.menu-button').setAttribute('aria-expanded', 'false');
+    $('.menu-button').setAttribute('aria-label', 'Open menu');
     document.title = routeLabel(selectedRoute) + ' - FioMUN';
     window.scrollTo({ top: 0, behavior: 'auto' });
 
@@ -447,6 +448,7 @@
       const nav = $('#mainNav');
       const open = nav.classList.toggle('open');
       $('.menu-button').setAttribute('aria-expanded', String(open));
+      $('.menu-button').setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
     });
 
     window.addEventListener('popstate', () => {

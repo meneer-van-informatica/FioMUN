@@ -128,6 +128,8 @@
     cursor: pointer;
     font-weight: 800;
   }
+  .menu-icon { display: block; width: 24px; height: 24px; }
+  .menu-button:focus-visible { outline: 2px solid var(--navy); outline-offset: 3px; }
 
   .page { display: none; }
   .page.active { display: block; }
@@ -493,7 +495,7 @@
   .footer-row { display: flex; align-items: center; justify-content: space-between; gap: 20px; }
 
   @media (max-width: 900px) {
-    .menu-button { display: block; }
+    .menu-button { display: flex; align-items: center; justify-content: center; }
     .nav {
       display: none;
       position: absolute;
