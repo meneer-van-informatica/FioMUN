@@ -301,7 +301,7 @@
     "cache": "disabled",
     "contractVersion": 2,
     "databaseVersion": 2,
-    "generatedAt": "2026-11-08T09:15:32.932Z"
+    "generatedAt": "2026-11-08T14:11:35.608Z"
   },
   "pages": {
     "about": {
@@ -381,31 +381,37 @@
   },
   "programme": [
     {
+      "day": "Friday",
       "text": "",
       "time": "8:30-9:00",
       "title": "First StOff briefing "
     },
     {
+      "day": "",
       "text": "",
       "time": "8:30-9:45",
       "title": "Registration and administration "
     },
     {
+      "day": "",
       "text": "",
       "time": "10:00-10:30",
       "title": "First timer workshop "
     },
     {
+      "day": "",
       "text": "",
       "time": "10:30-11:30",
       "title": "Opening ceremony "
     },
     {
+      "day": "",
       "text": "",
       "time": "12:00-14:00",
       "title": "Lunch "
     },
     {
+      "day": "",
       "text": "",
       "time": "12:00-17:00",
       "title": "Committees in session "
