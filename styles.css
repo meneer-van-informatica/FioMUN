@@ -330,6 +330,42 @@
     align-items: start;
   }
   .programme { border-top: 2px solid var(--navy); }
+
+  /* Four-day programme navigation, enabled when the public feed has day data. */
+  .programme.has-days { border-top: 0; }
+  .programme-day-controls {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 14px;
+    padding: 12px 0 18px;
+    border-top: 2px solid var(--navy);
+  }
+  .programme-day-heading { min-width: 0; text-align: center; }
+  .programme-day-name { display: block; color: var(--navy); font-size: 1.25rem; }
+  .programme-day-count { display: block; color: var(--muted); font-size: .81rem; }
+  .programme-arrow {
+    flex: 0 0 46px;
+    width: 46px;
+    height: 46px;
+    border: 1px solid #b8c4cf;
+    border-radius: 4px;
+    color: var(--navy);
+    background: var(--white);
+    font-size: 2rem;
+    line-height: 1;
+    cursor: pointer;
+  }
+  .programme-arrow:hover:not(:disabled), .programme-arrow:focus-visible {
+    border-color: var(--navy);
+    background: var(--soft);
+  }
+  .programme-arrow:disabled { opacity: .38; cursor: default; }
+  .programme-day-events { border-top: 1px solid var(--line); touch-action: pan-y; }
+  .programme-empty { margin: 0; padding: 24px 0; color: var(--muted); }
+  .programme-unassigned { margin-top: 24px; border-top: 2px solid var(--line); }
+  .programme-unassigned h3 { padding: 20px 0 4px; color: var(--navy); font-size: 1.02rem; }
+
   .programme-row {
     display: grid;
     grid-template-columns: 112px 1fr;
