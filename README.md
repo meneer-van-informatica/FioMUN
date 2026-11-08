@@ -28,3 +28,27 @@ Continue editing the public FioMUN Content spreadsheet. Content automatically sy
 ## Troubleshooting
 
 If content synchronization fails, inspect the GitHub Action log. The Apps Script public endpoint must be accessible anonymously; a Google login page is not JSON. A failed synchronization does not overwrite the previous valid data. Until the first sync works, this website deliberately displays a preparation notice. Google Sites remains a fallback.
+
+## Four-day programme (Thursday-Sunday)
+
+The programme is supplied by the **FioMUN Content** spreadsheet through the public
+Apps Script \`?api=site\` feed; do not edit \`data/site-data.json\` manually. Each
+programme item must include a day or an ISO date, for example:
+
+\`\`\`json
+{"day": "Friday", "time": "10:00-10:30", "title": "First timer workshop", "text": ""}
+\`\`\`
+
+Accepted days are Thursday, Friday, Saturday, Sunday (also common Dutch names and
+abbreviations); an ISO date such as \`2027-04-09\` also works. The JavaScript
+automatically enables day arrows, keyboard arrows and mobile swiping as soon as
+at least one valid day is published. Events missing a day stay visible under
+"Day to be confirmed". With no valid days the existing uninterrupted list stays
+visible. The frontend cannot determine the day from a time/title alone.
+
+If adding spreadsheet rows gets rejected, check the **source Sheet's validation,
+protected ranges and Apps Script reading range**: nothing in this repository
+limits the number of programme rows. Also confirm whether Thursday 8 April 2027
+is publicly part of the conference or only a staff/preparation day: the currently
+published conference date is 9-11 April 2027. Update those public dates in the
+source if the conference really runs for four days.
