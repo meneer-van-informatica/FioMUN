@@ -301,7 +301,7 @@
     "cache": "disabled",
     "contractVersion": 2,
     "databaseVersion": 2,
-    "generatedAt": "2026-11-10T04:12:20.691Z"
+    "generatedAt": "2026-11-10T12:49:57.158Z"
   },
   "pages": {
     "about": {
@@ -351,9 +351,9 @@
         "title": "Diplomacy starts HERE!"
       },
       "programme": {
-        "intro": "",
+        "intro": "Subject to change if needed",
         "kicker": "Conference day",
-        "title": "A clear programme for all participants "
+        "title": "Programme for all participants "
       },
       "summary": {
         "title": "A focused school conference built around debate, diplomacy and cooperation."
@@ -382,39 +382,171 @@
   "programme": [
     {
       "day": "Friday",
-      "text": "",
-      "time": "8:30-9:00",
+      "text": "Mandatory for StOff",
+      "time": "08:30-09:00",
       "title": "First StOff briefing "
     },
     {
-      "day": "",
+      "day": "Thursday",
       "text": "",
-      "time": "8:30-9:45",
+      "time": "16.00-18.00",
+      "title": "Registration international students and schools "
+    },
+    {
+      "day": "Saturday",
+      "text": "Mandatory for StOff",
+      "time": "08.30-09.00",
+      "title": "StOff briefing "
+    },
+    {
+      "day": "Sunday",
+      "text": "Mandatory for StOff",
+      "time": "09.30-09.45",
+      "title": "StOff briefing "
+    },
+    {
+      "day": "Friday",
+      "text": "",
+      "time": "08:30-09:45",
       "title": "Registration and administration "
     },
     {
-      "day": "",
+      "day": "Saturday",
+      "text": "",
+      "time": "09.00-17.00",
+      "title": "Committees in session "
+    },
+    {
+      "day": "Sunday",
+      "text": "Mandatory for GA StOff",
+      "time": "09.45-10.00",
+      "title": "GA plenary StOff briefing "
+    },
+    {
+      "day": "Friday",
       "text": "",
       "time": "10:00-10:30",
       "title": "First timer workshop "
     },
     {
-      "day": "",
+      "day": "Thursday",
+      "text": "",
+      "time": "16.00-18.00",
+      "title": "Housing and hostfamilies "
+    },
+    {
+      "day": "Thursday",
+      "text": "",
+      "time": "18.00-20.00",
+      "title": "StOff dinner "
+    },
+    {
+      "day": "Saturday",
+      "text": "",
+      "time": "09.00-17.00",
+      "title": "Approval panel open "
+    },
+    {
+      "day": "Sunday",
+      "text": "",
+      "time": "10.30-15.30",
+      "title": "GA plenary in session "
+    },
+    {
+      "day": "Friday",
       "text": "",
       "time": "10:30-11:30",
       "title": "Opening ceremony "
     },
     {
-      "day": "",
+      "day": "Saturday",
       "text": "",
-      "time": "12:00-14:00",
-      "title": "Lunch "
+      "time": "10.00-12.30",
+      "title": "MUN-director tour "
     },
     {
-      "day": "",
+      "day": "Sunday",
+      "text": "",
+      "time": "10.30-15.30",
+      "title": "All committees in session "
+    },
+    {
+      "day": "Friday",
+      "text": "",
+      "time": "12:00-14:00",
+      "title": "Lunch available "
+    },
+    {
+      "day": "Saturday",
+      "text": "",
+      "time": "12.00-14.00",
+      "title": "Lunch available "
+    },
+    {
+      "day": "Sunday",
+      "text": "",
+      "time": "10.30-14.00",
+      "title": "Approval panel open "
+    },
+    {
+      "day": "Friday",
       "text": "",
       "time": "12:00-17:00",
       "title": "Committees in session "
+    },
+    {
+      "day": "Saturday",
+      "text": "Mandatory for StOff",
+      "time": "17.10-17.40",
+      "title": "StOff debriefing "
+    },
+    {
+      "day": "Sunday",
+      "text": "",
+      "time": "12.00-14.00",
+      "title": "Lunch available "
+    },
+    {
+      "day": "Friday",
+      "text": "",
+      "time": "12.00-17.00",
+      "title": "Approval panel open"
+    },
+    {
+      "day": "Saturday",
+      "text": "",
+      "time": "19.30-23.30",
+      "title": "FioMUN celebration (doors close at 20.30)"
+    },
+    {
+      "day": "Sunday",
+      "text": "",
+      "time": "14.30-15.00",
+      "title": "MUN-director evalution"
+    },
+    {
+      "day": "Friday",
+      "text": "",
+      "time": "17.00-17.30",
+      "title": "Housing and hostfamilies "
+    },
+    {
+      "day": "Sunday",
+      "text": "",
+      "time": "16.00-17.00",
+      "title": "Closing ceremony "
+    },
+    {
+      "day": "Friday",
+      "text": "Mandatory for StOff",
+      "time": "17.10-17.40",
+      "title": "First StOff debriefing "
+    },
+    {
+      "day": "Sunday",
+      "text": "Mandatory for StOff",
+      "time": "17.10-17.40",
+      "title": "Final StOff debriefing "
     }
   ],
   "registration": {
