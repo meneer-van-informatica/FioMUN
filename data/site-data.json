@@ -264,7 +264,7 @@
     },
     {
       "label": "Venue",
-      "value": "Fioretti College Lisse"
+      "value": "Fioretti College Lisse, Sportlaan 3, 2161 VA Lisse, Netherlands "
     },
     {
       "label": "Language",
@@ -276,7 +276,7 @@
     },
     {
       "label": "Early Bird Fee",
-      "value": "40 euro, then 50 euros after Dec (Student Officers 45 euros)"
+      "value": "40 euros, then 50 euros after Dec (Student Officers 45 euros)"
     }
   ],
   "menu": [
@@ -301,7 +301,7 @@
     "cache": "disabled",
     "contractVersion": 2,
     "databaseVersion": 2,
-    "generatedAt": "2026-11-25T11:29:54.407Z"
+    "generatedAt": "2026-11-25T21:51:58.707Z"
   },
   "pages": {
     "about": {
